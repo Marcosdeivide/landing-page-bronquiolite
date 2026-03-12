@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* nav bar*/
+.container {
+  background: #e8f3ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.items-text ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar-items a {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*sobre*/
+.sobre-bronquiolite {
+  color: #ffff;
+  padding: 0;
+  margin: 1px 0;
+  border-top: 1px solid #1f3a5f;
+  border-bottom: 1px solid #1f3a5f;
+}
+.text {
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 10px;
+  width: 200px;
+}
+.text-inicio {
+  display: block;
+  background-color: #1f3a5f;
+}
+h1,
+h2,
+p,
+button {
+  line-height: 1.9;
+}
+.button {
+  padding: 8px;
+  color: #ffff;
+  background-color: #0b1d36;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+.text-broquiolite {
+    color: #1F3A5F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.subititulo{
+    color: #6B7280;
+}
+.text-sintomas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.text-content{
+    max-width: 700px;
+}
+.img-pulmao{
+    width: 250px;
+    
+}
+img{
+  width: 300px;
+}
