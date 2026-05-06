@@ -3,57 +3,137 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
-      <header class="text-container">
-        <h1>Bronquiolite</h1>
+      <!--logo inicio-->
+      <header class="container-top">
+        <h2>bronquiolite</h2>
+        <!--navbar-->
+        <nav class="menu">
+          <a href="">inicio</a>
+          <a href="">sobre</a>
+          <a href="">sintomas</a>
+          <a href="">tratamento</a>
+          <a href="">prevenção</a>
+          <a href="">contato</a>
+          <a href="" class="menu-button">falar com especialista</a>
+        </nav>
       </header>
-      <nav class="items-text">
-        <ul class="navbar-items">
-          <li><a href="#">inicio</a></li>
-          <li><a href="#">sintomas</a></li>
-          <li><a href="#">prenvençao</a></li>
-          <li><a href="#">contato</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="sobre-bronquiolite">
-      <main class="text-inicio">
-        <div class="text">
-          <h2>bronquiolite:</h2>
-          <h3>saiba como proteger <br />seu bebé</h3>
+      <!--hero da pagina texto-->
+      <section class="hero">
+        <section class="hero-text">
+          <h1>bronquiolite em bebes:</h1>
+          <h2>entenda os sinais e proteja seu filho</h2>
+          <p>
+            saiba identificar sintomas,quando se preocupar <br> e como agir
+            rapidamente
+          </p>
+          <button class="hero-button">quero saber mais</button>
+        </section>
+        <!--hero image foto da mae-->
+        <section class="hero-image">
+          <img
+            class="img-mom"
+            src="img\mom.webp"
+            alt="imagem de um bebe e uma mae"
+          />
+        </section>
+      </section>
+      <!--seçao de cards-->
+      <section class="container-attention">
+        <h2>atençao aos sinais:</h2>
+       
+        <i class="fa-solid fa-triangle-exclamation"></i>
+
+        <section class="card-container">
+          <div class="card">
+            <i class="fa-solid fa-lungs"></i>
+            <span class="text-attention">respiraçao</span>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-volume-high"></i>
+            <span class="text-attention">chiado no peito</span>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-person-breastfeeding"></i>
+            <span class="text-attention">dificuldade de mamar</span>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-thermometer"></i>
+            <span class="text-attention">febre</span>
+          </div>
+        </section>
+        <!--oq e bronquiolite-->
+      </section>
+      <section class="bronquiolite-info">
+        <img
+          class="img-pulmon"
+          src="img\Captura de tela 2026-05-02 175716.png"
+          alt="pulmao"
+        />
+        <div class="text-info">
+          <h2>o que e bronquiolite</h2>
+          <p
+            >a bronquiolite e uma infecçao viral que afeta os bronquiolos,
+            pequenas vias aereas dos pulmoes e mais comum em bebes e crianças
+            menores de 2 anos, especialmente nos primeiros meses de vida.</span>
+          <p
+            >o virus respiratorio (vsr) e o principal causador. principalmente
+            no outono e inverno</p>
+          <button class="info-button">quero saber mais</button>
         </div>
-        <p>entenda os sintomas e quando <br />procurar ajuda medica.</p>
-        <button class="button">saiba mais</button>
-      
+        <!--quando busacar ajuda-->
+      </section>
+      <section class="seek-help">
+        <h2>quando buscar ajuda medica?</h2>
+        <ul class="list-help">
+         
+         <li><i id="style" class="fa-solid fa-circle-check"></i>labios ou unhas arroxeadas</li>
+         <li><i id="style" class="fa-solid fa-circle-check"></i>sonolencia excessiva ou dificuldade para acordar</li>
+         <li><i id="style" class="fa-solid fa-circle-check"></i>recusa alimentar ou sinais de desidrataçao</li>
+         <li><i id="style" class="fa-solid fa-circle-check"></i>piora dos sintomas ou preocupaçao dos pais</li>
+        </ul>
+      </section>
+    </div>
+    <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-section">
+      <h3>Sobre</h3>
+      <p>
+        Site informativo sobre bronquiolite, com conteúdo educativo para pais e responsáveis.
+      </p>
     </div>
 
-    <section class="text-sintomas">
-      <div class="text-content">
-      <h2 class="text-broquiolite">o que e bronquiolite ?</h2>
-      <p class="subititulo">
-        A bronquiolite é uma infecção respiratória que afeta principalmente
-        bebês e crianças pequenas. Ela acontece quando os bronquíolos (pequenas
-        vias respiratórias dos pulmões) ficam inflamados e cheios de muco,
-        dificultando a passagem do ar. A doença geralmente é causada por vírus,
-        sendo o mais comum o vírus sincicial respiratório (VSR). A bronquiolite
-        costuma aparecer mais em crianças menores de 2 anos e pode causar
-        sintomas como tosse, febre, chiado no peito e dificuldade para respirar.
-      </p>
-      </div>
-      <img src="css/0c885ad3596415fd6c9b2e8cc3b86c72.jpg" alt="icon-pulmao" class="img-pulmao ">
-    </section>
-    <section class="principal-card">
-      <div class="card-img">
-        <a href=""><img src="css/ChatGPT Image 12 de mar. de 2026, 14_06_54.png"  alt="tosse" class="card-img" ></a>
-        <a href=""><img src="css/ChatGPT Image 12 de mar. de 2026, 14_10_10.png" alt="" class="card-img"></a>
-    <a href=""><img src="css/ChatGPT Image 12 de mar. de 2026, 14_11_51.png" alt="" class="card-img"></a>
-      </div>
+    <div class="footer-section">
+      <h3>Navegação</h3>
+      <a href="#">Início</a>
+      <a href="#">Sintomas</a>
+      <a href="#">Tratamento</a>
+      <a href="#">Prevenção</a>
+    </div>
 
-    </section>
-    </main>
+    <div class="footer-section">
+      <h3>Contato</h3>
+      <p>Fale com um especialista</p>
+      <p>Email: contato@email.com</p>
+      <p class="alert">
+        Este site não substitui orientação médica
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 - Projeto educativo | Desenvolvido por você</p>
+  </div>
+</footer>
   </body>
 </html>
